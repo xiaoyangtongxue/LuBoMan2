@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="luoboman.www.luobo.com.luboman.fragment1">
+
+
+    <LinearLayout
+        android:id="@+id/biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/main"
+
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/home_img"
+            android:onClick="saomiao"
+            android:src="@drawable/ic_normal_code"/>
+
+        <EditText
+            android:id="@+id/edt"
+            style="@style/Search_a"
+            />
+
+        <ImageView
+            android:id="@+id/img2"
+            style="@style/home_img"
+            android:src="@drawable/ic_normal_message"
+            />
+
+    </LinearLayout>
+
+
+    <com.youth.banner.Banner
+
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        >
+
+    </com.youth.banner.Banner>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/btn"
+                style="@style/apphome_bu"
+                android:drawableTop="@drawable/jifen"
+                android:text="@string/fen"
+                android:onClick="btn2"
+                android:textColor="@color/main"
+                />
+
+            <RadioButton
+                style="@style/apphome_bu"
+                android:drawableTop="@drawable/zhenwei"
+                android:text="@string/zhen"
+                android:id="@+id/btn2"
+
+                android:onClick="btn1"
+                />
+
+            <RadioButton
+                android:id="@+id/btn3"
+                style="@style/apphome_bu"
+                android:drawableTop="@drawable/qiandao"
+                android:text="@string/qian"
+                android:onClick="btn3"
+                />
+
+            <RadioButton
+                android:id="@+id/btn4"
+                style="@style/apphome_bu"
+                android:drawableTop="@drawable/duihaun"
+
+                android:onClick="btn4"
+                android:text="@string/huan"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/recycleview2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+
+    <!--android:id="@+id/recycleview2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="300dp"-->
+
+    <!--&gt;-->
+
+    <!--</ndroid.support.v7.widget.RecyclerViewa>-->
+
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+
+</LinearLayout>

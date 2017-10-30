@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">首页</string>
+    <string name="app_home">分类</string>
+    <string name="app_class">购物车</string>
+    <string name="app_cart">个人</string>
+
+    <string name="app_pin">商品</string>
+    <string name="app_dian">店铺</string>
+    <string name="app_zu">我的足迹</string>
+    <string name="wei">未付款</string>
+    <string name="fahuo">代发货</string>
+    <string name="huo">待收货</string>
+    <string name="pingjia">待评价</string>
+    <string name="xie">谢款</string>
+    <string name="yu">预存款</string>
+    <string name="chongzhi">充值卡</string>
+    <string name="daijin">代金卷</string>
+    <string name="hongbao">红包</string>
+    <string name="jifen">积分</string>
+
+    <string name="qian">每日签到</string>
+    <string name="huan">兑换专区</string>
+    <string name="zhen">真伪查询</string>
+    <string name="fen">积分商城</string>
+
+
+</resources>

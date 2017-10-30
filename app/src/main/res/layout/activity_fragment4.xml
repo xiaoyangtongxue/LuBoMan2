@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="luoboman.www.luobo.com.luboman.fragment4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/main"
+        >
+        <ImageView
+            android:id="@+id/imgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_default_user_head"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgs"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:text="123837434"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/hong">
+
+
+                <RadioButton
+                    style="@style/apphome_bu"
+                    android:drawableTop="@mipmap/ic_collection_goods"
+                    android:text="@string/app_pin"
+                    android:id="@+id/btn"
+                    android:textColor="@color/white"
+
+                    />
+                <RadioButton
+                    android:id="@+id/btn2"
+                    style="@style/apphome_bu"
+                    android:drawableTop="@mipmap/ic_collection_store"
+                    android:text="@string/app_dian"
+                    android:textColor="@color/white"
+
+                    />
+                <RadioButton
+                    android:id="@+id/btn3"
+                    style="@style/apphome_bu"
+                    android:drawableTop="@mipmap/ic_user_footprint"
+                    android:text="@string/app_zu"
+                    android:textColor="@color/white"
+                    />
+
+
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_order"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部订单"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_alignBottom="@+id/img2"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:src="@drawable/ic_normal_dot_left"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_order_wait_pay"
+            android:text="@string/wei"
+            android:id="@+id/btn4"
+
+
+            />
+        <RadioButton
+            android:id="@+id/btn5"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_order_wait_drive"
+            android:text="@string/fahuo"
+
+            />
+        <RadioButton
+            android:id="@+id/btn6"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_order_wait_receipt"
+            android:text="@string/huo"
+
+            />
+
+        <RadioButton
+            android:id="@+id/btn7"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_order_wait_comment"
+
+
+            android:text="@string/pingjia"
+            />
+        <RadioButton
+            android:id="@+id/btn8"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_order_wait_refund"
+
+            android:text="@string/xie"
+            />
+    </RadioGroup>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_property"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的财产"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/img5"
+            android:layout_alignBottom="@+id/img5"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:src="@drawable/ic_normal_dot_left"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RadioGroup
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_property_money"
+            android:text="@string/yu"
+            android:id="@+id/btn9"
+
+
+            />
+        <RadioButton
+            android:id="@+id/btn10"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_property_card"
+            android:text="@string/chongzhi"
+
+            />
+        <RadioButton
+            android:id="@+id/btn11"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_property_vouchers"
+            android:text="@string/daijin"
+
+            />
+
+        <RadioButton
+            android:id="@+id/btn12"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_property_red"
+
+
+            android:text="@string/hongbao"
+            />
+        <RadioButton
+            android:id="@+id/btn13"
+            style="@style/apphome_bu"
+            android:drawableTop="@drawable/ic_user_property_integral"
+
+            android:text="@string/jifen"
+            />
+    </RadioGroup>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收货地址"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/img6"
+            android:layout_alignBottom="@+id/img6"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:src="@drawable/ic_normal_dot_left"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/img8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_user_setting"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="系统设置"
+            android:textSize="25dp"
+            android:layout_toRightOf="@+id/img8"
+            android:layout_alignBottom="@+id/img8"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:src="@drawable/ic_normal_dot_left"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
